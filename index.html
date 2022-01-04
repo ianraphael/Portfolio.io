@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="main-header">
+        <p>I△N</p>
+        <img src="images/bars-solid.svg" alt="menu bar" onclick="changeNav()" id="navIcon">
+    </header>
+    <nav id="navBar">
+        <ul>
+            <li onclick="home()">Home</li>
+            <li onclick="about()">About</li>
+            <li onclick="works()">Works</li>
+            <li onclick="contacts()">Contacts</li>
+        </ul>
+    </nav>
+    <section>
+        <article class="home">
+            <div class="box-1">
+                <img src="images/ian.jpg" alt="myPicture" id="myPicture" onclick="changeMyPicture()">
+            </div>
+            <div class="box-2">
+                <p>I am <span>Ian Raphael T. Labicani</span></p>
+                <p>I have been coding since birth.</p>
+                <p>"Wondering while wandering gives me satisfaction."</p>
+            </div>
+        </article>
+        <article class="about">
+            <div class="box-1">
+                <p>About</p>
+                <p>Hi there!</p>
+                <p>I am continously flaming up the desire to be a full-stack developer. I see a lot of opportunities in this field and I am assuming that I will meet more people that could help me to develop the skills I have in particular to coding and human relations.</p>
+                <p>I'm just a First year <strong>BSIT</strong> student at Cagayan State University. I have developed my skills in coding with the help of different free courses from <strong>W3schools</strong>, <strong>Solo Learn</strong>, <strong>Youtube</strong> etc.</p>
+            </div>
+        </article>
+        <article class="works">
+            <div class="box-1">
+                <p>Projects</p>
+                <ul>
+                    <li><a href="calculator/calculator.html" target="_blank">Calculator</a></li>
+                </ul>
+            </div>
+        </article>
+        <article class="contacts">
+            <div class="box-1">
+                <p>Contacts</p>
+                <p>I'm not certain that I can give an immediate reply to your messages but I will read and try to give response within 24 hours.</p>
+                <div class="links">
+                    <img src="images/facebook-messenger-brands.svg" alt="" width="30px">
+                <a href="https://www.facebook.com/ian.labicani.5/" target="_blank">Ian Labicani</a>
+                </div>
+                <div class="links">
+                    <img src="images/phone-solid.svg" alt="" width="30px">
+                    <br>
+                    <p>+63 998-2593-625</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
