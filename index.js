@@ -2,6 +2,10 @@ let navIcon = document.getElementById("navIcon");
 let navBar = document.getElementById("navBar");
 let myPicture = document.getElementById("myPicture"); 
 let header = document.getElementsByClassName("main-header");
+let currentWidth = window.innerWidth;
+
+alert("Kindly reload the page after switching width for testing the responsiveness. \nThank you!")
+
 
 function changeNav() {
     if (navIcon.src.endsWith("images/bars-solid.svg") == true) {
@@ -21,10 +25,10 @@ function changeMyPicture() {
     }
 }
 
-window.addEventListener("scroll", () => {
-    const scrolled = window.scrollY;
-    console.log(scrolled)
-})
+// window.addEventListener("scroll", () => {
+//     const scrolled = window.scrollY;
+//     console.log(scrolled)
+// })
 
 function home() {
     scrollTo({top:0, behavior: 'smooth'})
