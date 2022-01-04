@@ -11,17 +11,16 @@ body {
 .main-header {
     display: flex;
     width: 100%;
-    height: 50px;
     position: fixed;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 20px;
     background-color: black;
     z-index: 50;
 }
 .main-header p {
-    margin-left: 50px;
+    margin-left: 60px;
     align-self: center;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     color: azure;
     text-shadow: 2px 7px  green;
@@ -31,7 +30,7 @@ body {
 #navbar {
     position: fixed;
     width: 80%;
-    top: 10;
+    top: 28;
     right: 0;
     background-color: black;
     z-index: 50;
@@ -85,7 +84,7 @@ article {
     user-select: none;
 }
 .home .box-2 {
-    height: 80%;
+    height: 100%;
     width: 40%;
     position: relative;
     padding: 10px;
@@ -96,7 +95,6 @@ article {
     justify-content: space-evenly;
     font-size: 15px;
     text-align: center;
-    align-self: center;
 }
 .home .box-2 p:nth-child(1) {
     font-size: 20px;
@@ -189,6 +187,7 @@ article {
 }
 .contacts .box-1 p:nth-child(2) {
     font-size: 30px;
+    width: 50%;
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -376,6 +375,7 @@ article {
     }
     .contacts .box-1 p:nth-child(2) {
         font-size: 30px;
+        width: 100%;
         text-align: justify;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
