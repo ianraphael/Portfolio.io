@@ -50,6 +50,10 @@ body {
     color: azure;
     cursor: pointer;
 }
+#navbar li:hover {
+    color: burlywood;
+    transition: ease-in-out .75s color;
+}
 #navIcon {
     display: none;
 }
@@ -93,11 +97,11 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
 }
 .home .box-2 p:nth-child(1) {
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 3px;
     font-family: cursive;
 }
@@ -129,7 +133,7 @@ article {
 
 }
 .about .box-1 p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: justify;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -141,7 +145,7 @@ article {
 
 }
 .about .box-1 p:nth-child(2) {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .works .box-1 {
@@ -188,7 +192,9 @@ article {
 .contacts .box-1 p:nth-child(2) {
     font-size: 30px;
     width: 50%;
+    word-spacing: 4px;
     text-align: justify;
+    word-wrap: break-word;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
