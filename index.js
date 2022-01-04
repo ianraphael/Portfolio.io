@@ -41,7 +41,7 @@ if (window.innerWidth > 400) {
 
 if (window.innerWidth > 400) {
     function works() {
-        scrollTo({top: 1218, behavior:'smooth'})
+        scrollTo({top: 1293, behavior:'smooth'})
     }
 }else {
     function works() {
