@@ -2,9 +2,7 @@ let navIcon = document.getElementById("navIcon");
 let navBar = document.getElementById("navBar");
 let myPicture = document.getElementById("myPicture"); 
 let header = document.getElementsByClassName("main-header");
-let currentWidth = window.innerWidth;
 
-alert("Kindly reload the page after switching width for testing the responsiveness. \nThank you!")
 
 
 function changeNav() {
@@ -17,12 +15,22 @@ function changeNav() {
     }
 }
 
-function changeMyPicture() {
-    if (myPicture.src.endsWith("images/ian.jpg") == true) {
-        myPicture.src = "images/ian2.jpg";
-    }else {
-        myPicture.src = "images/ian.jpg";
+if (window.innerWidth < 400) {
+    function changeMyPicture() {
+        if (myPicture.src.endsWith("images/ian.jpg") == true) {
+            myPicture.src = "images/ian2.jpg";
+        }else {
+            myPicture.src = "images/ian.jpg";
+        }
     }
+}else {
+    myPicture.addEventListener('mouseover', () => {
+        if (myPicture.src.endsWith("images/ian.jpg") == true) {
+            myPicture.src = "images/ian2.jpg";
+        }else {
+            myPicture.src = "images/ian.jpg";
+        }
+    })
 }
 
 // window.addEventListener("scroll", () => {
@@ -62,3 +70,6 @@ if (window.innerWidth > 400) {
         scrollTo({top:1839, behavior: 'smooth'})
     }
 }
+
+alert("Kindly reload the page after switching width for testing the responsiveness. \nThank you!")
+
