@@ -31,27 +31,27 @@ function home() {
 }
 if (window.innerWidth > 400) {
     function about() {
-        scrollTo({top: 654, behavior:'smooth'})
+        scrollTo({top: 641, behavior:'smooth'})
     }
 }else {
     function about() {
-        scrollTo({top:611, behavior: 'smooth'})
+        scrollTo({top:608, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function works() {
-        scrollTo({top: 1286, behavior:'smooth'})
+        scrollTo({top: 1281, behavior:'smooth'})
     }
 }else {
     function works() {
-        scrollTo({top:1226, behavior: 'smooth'})
+        scrollTo({top:1231, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function contacts() {
-        scrollTo({top: 1935, behavior:'smooth'})
+        scrollTo({top: 1927, behavior:'smooth'})
     }
 }else {
     function contacts() {
