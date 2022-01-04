@@ -35,23 +35,23 @@ if (window.innerWidth > 400) {
     }
 }else {
     function about() {
-        scrollTo({top:603, behavior: 'smooth'})
+        scrollTo({top:608, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function works() {
-        scrollTo({top: 1284, behavior:'smooth'})
+        scrollTo({top: 1290, behavior:'smooth'})
     }
 }else {
     function works() {
-        scrollTo({top:1231, behavior: 'smooth'})
+        scrollTo({top:1223, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function contacts() {
-        scrollTo({top: 1927, behavior:'smooth'})
+        scrollTo({top: 1935, behavior:'smooth'})
     }
 }else {
     function contacts() {
