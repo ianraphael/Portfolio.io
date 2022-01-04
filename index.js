@@ -35,13 +35,13 @@ if (window.innerWidth > 400) {
     }
 }else {
     function about() {
-        scrollTo({top:608, behavior: 'smooth'})
+        scrollTo({top:603, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function works() {
-        scrollTo({top: 1281, behavior:'smooth'})
+        scrollTo({top: 1218, behavior:'smooth'})
     }
 }else {
     function works() {
@@ -55,7 +55,7 @@ if (window.innerWidth > 400) {
     }
 }else {
     function contacts() {
-        scrollTo({top:1851, behavior: 'smooth'})
+        scrollTo({top:1839, behavior: 'smooth'})
     }
 }
 
