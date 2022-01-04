@@ -27,6 +27,9 @@ body {
     cursor: pointer;
     user-select: none;
 }
+.main-header p:hover {
+    text-shadow: -5px -10px red;
+}
 #navbar {
     position: fixed;
     width: 80%;
