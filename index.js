@@ -31,31 +31,31 @@ function home() {
 }
 if (window.innerWidth > 400) {
     function about() {
-        scrollTo({top: 333, behavior:'smooth'})
+        scrollTo({top: 654, behavior:'smooth'})
     }
 }else {
     function about() {
-        scrollTo({top:600, behavior: 'smooth'})
+        scrollTo({top:611, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function works() {
-        scrollTo({top: 677, behavior:'smooth'})
+        scrollTo({top: 1286, behavior:'smooth'})
     }
 }else {
     function works() {
-        scrollTo({top:1220, behavior: 'smooth'})
+        scrollTo({top:1226, behavior: 'smooth'})
     }
 }
 
 if (window.innerWidth > 400) {
     function contacts() {
-        scrollTo({top: 1025, behavior:'smooth'})
+        scrollTo({top: 1935, behavior:'smooth'})
     }
 }else {
     function contacts() {
-        scrollTo({top:1845, behavior: 'smooth'})
+        scrollTo({top:1851, behavior: 'smooth'})
     }
 }
 
