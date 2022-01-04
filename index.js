@@ -58,5 +58,3 @@ if (window.innerWidth > 400) {
         scrollTo({top:1839, behavior: 'smooth'})
     }
 }
-
-console.log(window.scrollY)
